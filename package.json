@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "node server.js",
-    "test": "",
+    "test": "jest",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,5 +19,8 @@
     "next": "^2.4.6",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "jest-cli": "^20.0.4"
   }
 }

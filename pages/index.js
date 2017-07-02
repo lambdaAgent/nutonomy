@@ -10,8 +10,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      convertOriginalData: [], 
-      sortedOrFilteredData: [], // this is when data is sorted or filtered
+      convertOriginalData: [], // this stores originalData, edited to simplify rendering table
+      sortedOrFilteredData: [], // this stores data after it's sorted or filtered
       carBuildOptions: [],
       scenarioIdOptions: [],
       filteredObject_carBuild: {
